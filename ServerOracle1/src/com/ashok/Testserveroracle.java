@@ -54,7 +54,7 @@ public class Testserveroracle extends HttpServlet {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			Connection con = DriverManager.getConnection("jdbc:oracle:thin:system/admin@localhost:1521/Xe");
 			
-			PreparedStatement ps = con.prepareStatement("insert into emp1 values(?,?,?,?");
+			PreparedStatement ps = con.prepareStatement("insert into emp1 values(?,?,?,?)");
 			ps.setString(1, n);
 			ps.setString(2, p);
 			ps.setString(3, e);

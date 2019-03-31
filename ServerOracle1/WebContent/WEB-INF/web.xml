@@ -13,6 +13,5 @@
     <servlet-name>Serveroracle1</servlet-name>
     <servlet-class>com.ashok.Serveroracle1</servlet-class>
   </servlet>
-
-
+  
 </web-app>
